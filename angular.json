@@ -56,7 +56,11 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true
+              "namedChunks": true,
+              "localize": ["en-US"]
+            },
+            "locale-de": {
+              "localize": ["de"]
             }
           },
           "defaultConfiguration": "production"
@@ -69,6 +73,9 @@
             },
             "development": {
               "browserTarget": "book-monkey:build:development"
+            },
+            "development-de": {
+              "browserTarget": "book-monkey:build:development,locale-de"
             }
           },
           "defaultConfiguration": "development"

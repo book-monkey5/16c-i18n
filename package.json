@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build && npx cpy landing.html dist/book-monkey/ --rename index.html",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint"
@@ -38,6 +38,7 @@
     "@types/jasmine": "~4.0.0",
     "@typescript-eslint/eslint-plugin": "5.29.0",
     "@typescript-eslint/parser": "5.29.0",
+    "cpy-cli": "^4.1.0",
     "eslint": "^8.18.0",
     "jasmine-core": "~4.2.0",
     "karma": "~6.4.0",
