@@ -8,9 +8,4 @@ import { AuthService } from './shared/auth.service';
 })
 export class AppComponent {
   constructor(public auth: AuthService) {}
-
-  changeLocale(targetLang: string) {
-    localStorage.setItem('locale', targetLang);
-    location.reload();
-  }
 }
