@@ -16,7 +16,7 @@ export class AuthGuard implements CanActivate {
       return true;
     } else {
       const msg = $localize
-        `:alert message when not logged in@@AuthGuardAlert:Not logged in!`
+        `:alert message when not logged in@@AuthGuardAlert:Not logged in!`;
       window.alert(msg);
       return this.router.parseUrl('/home');
     }
