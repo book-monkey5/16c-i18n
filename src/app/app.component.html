@@ -11,6 +11,8 @@
       (click)="auth.logout()"
       *ngIf="auth.isAuthenticated"
       i18n="logout@@AppComponentLogout">Logout</button>
+    <button (click)="changeLocale('de')">DE</button>
+    <button (click)="changeLocale('en')">EN</button>
   </div>
 </nav>
 
