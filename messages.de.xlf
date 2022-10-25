@@ -60,7 +60,7 @@
         </context-group>
         <note priority="1" from="description">Label for the authors inputs</note>
         <note priority="1" from="meaning">label authors</note>
-        <target>Autoren</target>
+        <target>Autorinnen/Autoren</target>
       </trans-unit>
       <trans-unit id="BookFormComponentAddAuthor" datatype="html">
         <source> + Author </source>
@@ -120,7 +120,7 @@
         </context-group>
         <note priority="1" from="description">Error message for title required</note>
         <note priority="1" from="meaning">error title required</note>
-        <target>Ein Titel ist erforderlich</target>
+        <target>Ein Titel ist erforderlich.</target>
       </trans-unit>
       <trans-unit id="BookFormComponentErrorIsbnRequired" datatype="html">
         <source>ISBN is required</source>
@@ -130,7 +130,7 @@
         </context-group>
         <note priority="1" from="description">Error message for ISBN required</note>
         <note priority="1" from="meaning">error isbn required</note>
-        <target>Die ISBN ist erforderlich</target>
+        <target>Die ISBN ist erforderlich.</target>
       </trans-unit>
       <trans-unit id="AppComponentHome" datatype="html">
         <source>Home</source>
@@ -190,7 +190,7 @@
         </context-group>
         <note priority="1" from="description">Headline for the authors</note>
         <note priority="1" from="meaning">headline authors</note>
-        <target>Autoren</target>
+        <target>Autorinnen/Autoren</target>
       </trans-unit>
       <trans-unit id="BookDetailsComponentIsbn" datatype="html">
         <source>ISBN</source>
