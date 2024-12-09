@@ -1,3 +1,5 @@
+/// <reference types="@angular/localize" />
+
 import { registerLocaleData } from '@angular/common';
 import { LOCALE_ID } from '@angular/core';
 import { loadTranslations } from '@angular/localize';
